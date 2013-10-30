@@ -1,6 +1,3 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/carbon/config/common_cdma.mk)
-
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
